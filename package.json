@@ -1,0 +1,33 @@
+{
+  "name": "dnd-helper-v2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "packageManager": "npm@11.9.0",
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batatich/dnd-helper-V2-TEMPORARY-NAME-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batatich/dnd-helper-V2-TEMPORARY-NAME-/issues"
+  },
+  "homepage": "https://github.com/batatich/dnd-helper-V2-TEMPORARY-NAME-#readme",
+  "devDependencies": {
+    "prettier": "3.9.5"
+  }
+}
